@@ -1,0 +1,12 @@
+
+.content {
+swiper {
+		width: 750rpx;
+		height: 480rpx;
+image {
+			width: 100%;
+			height: 100%;
+}
+}
+}
+

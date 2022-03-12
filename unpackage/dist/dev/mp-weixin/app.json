@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/cart/cart",
+    "pages/member/member"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#b50e53",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png"
+      },
+      {
+        "text": "咨询",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/images/news.png",
+        "selectedIconPath": "static/images/news-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/images/cart.png",
+        "selectedIconPath": "static/images/cart-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/images/member.png",
+        "selectedIconPath": "static/images/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
